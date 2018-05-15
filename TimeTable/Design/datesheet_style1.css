@@ -1,0 +1,54 @@
+body
+{
+	margin: 0px;
+}
+.datesheet table
+{
+	font-family: Sans-serif;
+	margin: auto;
+	border-collapse: collapse;
+	max-width: 100%;
+	width: 95%;
+	border: 1px solid black;
+}
+
+.datesheet th,td
+{
+	text-align: center;
+	border: 0px solid black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.datesheet th
+{
+	background-color: #00aa00;
+	color: #ffffff;
+}
+.datesheet tr
+{
+	padding: 10px;
+}
+
+
+.datesheet tr#one
+{
+	background-color: #ffffff;
+}
+
+.datesheet tr#two
+{
+	background-color: #dcdcdc;
+}
+
+@media screen and (min-width: 880px)
+{
+	.datesheet table
+	{
+		font-family: Sans-serif;
+		margin: auto;
+		border-collapse: collapse;
+		max-width: 100%;
+		width: 70%;
+		border: 1px solid black;
+	}	
+}

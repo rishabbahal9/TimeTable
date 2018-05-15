@@ -1,0 +1,293 @@
+/*for desktop*/
+body
+{
+	margin: 0px;
+}
+div.header
+{
+	text-align:center;
+	font-family:heading;
+	background-color:#5a5a5a;
+	color:#eeeeee;
+	margin-top:0px;
+	line-height: 30px;
+	font-size: 75px;
+	padding: 30px 10px 10px 10px;
+	height: 80px;
+}
+.content {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.sticky {
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		.sticky + .content {
+			padding-top: 50px;
+		}
+
+div.box
+{
+width: 28%;
+margin-left: auto;
+margin-right:auto;
+}
+div.box a:link
+{
+	text-decoration: none;
+	background-color: #0a680c;
+
+	display: block;
+
+	text-align: center;
+	width: 20vw;
+	border-radius: 15px;
+}
+
+
+div.desktop_ad
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.mob_ad
+{
+	display: none;
+}
+
+
+
+
+div.box_bulletin
+{
+	/*
+	font-family: Sans-serif;
+	font-size: 15px;
+	line-height: 35px;
+	padding: 20px;
+	*/
+
+	width: 40%;
+	margin-left: auto;
+	margin-right:auto;
+
+
+	/*
+	background-color: #e5e5e5;
+	margin:10px;
+	border: 1px solid #000000;
+	*/
+}
+
+
+div.box_bulletin a:link
+{
+	text-decoration: none;
+	background-color: #0a680c;
+
+	display: block;
+	text-align: center;
+	width: 47%;
+	border-radius: 2px;
+}
+div.box_bulletin a:hover
+{
+		color: #ffffff;
+		background-color:#0dab11;
+}
+div.box_bulletin a:link
+{
+		color: #ffffff;
+}
+div.box_bulletin a:visited
+{
+		color: #ffffff;
+}
+
+
+
+
+
+div#fiftee
+{
+	width:41%;
+}
+
+
+div.footer
+{
+	margin-top: 20px;
+	padding: 30px 80px;
+}
+
+
+div#box1
+{
+	margin-top: 10px;
+}
+div#box2
+{
+	margin-top: 10px;
+}
+div#box3
+{
+	margin-top: 10px;
+}
+
+table.table_details
+{
+	background-color: #ffffff;
+	border-radius: 3px;
+	display: block;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse:collapse;
+}
+
+iframe.frame
+{
+	height: 50vmin;
+	width: 30vw;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+span.long_span
+{
+	width: 40%;
+	margin: 5px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+span.long_span a:link
+{
+width: 85%;
+margin: 5px;
+border-radius: 15px;
+}
+
+div#not
+{
+	font-size: 16px;
+	width: 30%;
+}
+
+div.index
+{
+	display: none;
+}
+
+img#profile
+{
+	max-width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+}
+
+div#mail
+{
+	background-color: #ffffff;
+	width: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px 5px;
+	border-radius: 3px;
+	max-width: 100%;
+	overflow-x:scroll;
+}
+
+div#number
+{
+	background-color: #ffffff;
+	padding: 20px 20px;
+	border-radius: 10px;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#yellow
+{
+
+	display: block;
+	font-family: sans-serif;
+	width:40%;
+}
+
+div#yellow a:link
+{
+
+	width: 30%;
+}
+div#datesheetbox
+{
+	width: 40%;
+}
+div.red
+{
+	width:31%;
+}
+
+div.ad
+{
+	width: 45%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+div#pop
+{
+	display: block;
+}
+
+
+div.scoll a:link
+{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #aa0000;
+	margin: 10px ;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+div.scoll a:visited
+{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #aa0000;
+	margin: 10px ;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: sans-serif;
+}
+div.scoll
+{
+	width: 75%;
+	display: flex;
+	flex-wrap: none;
+	margin: auto;
+}
+div.special
+{
+	width: 85%;
+	margin: auto;
+}

@@ -1,0 +1,204 @@
+#selection_ECE
+{
+
+  background-color: #b30004;/*#b30004;*/
+  color: #ffffff;
+  margin-right: 0px;
+  border-radius: 5px 0px 0px 5px;
+}
+#time_table
+{
+  width: 60%;
+  border-collapse: collapse;
+  color: #000000;
+  overflow-x: scroll;
+  margin-left: 0px;
+  border-radius: 0px 5px 5px 0px;
+}
+.tbl
+{
+  display: block;
+  width: 100%;
+}
+.tbl tr
+{
+  display: block;
+  width: 1500px;
+}
+.tbl th
+{
+  padding: 2px 1px;
+  background-color: #d50307;
+  border-radius: 3px;
+  width: 100px;
+  text-align: center;
+}
+.tbl td
+{
+  padding: 2px 1px;
+  background-color: #888888;
+  border-radius: 3px;
+  width: 100px;
+  text-align: center;
+}
+td.TTD
+{
+  background-color: #d50307;
+}
+.p1,.p2,.p3
+{
+  padding: 5px 0px;
+  border-radius: 3px;
+/*  background-color: #54008a;*/
+  /*color: #aaaaaa;*/
+}
+td.pp1,td.pp2,td.pp3
+{
+   background-color: #54008a;
+   color: #aaaaaa;
+}
+td.ll
+{
+  background-color: #2e9600;
+}
+td.TT1,td.TT2
+{
+  background-color: #debc00;
+}
+
+td.BREAK
+{
+  background-color: #888888;
+}
+
+select.slct
+{
+  line-height: 30px;
+  font-size: 20px;
+  font-family: write;
+  border-radius: 20px;
+  width: 40%;
+  padding: 5px 5px;
+  margin: 10px;
+}
+input.btns
+{
+  line-height: 25px;
+  font-size: 20px;
+  font-family: write;
+  border-radius: 20px;
+  background-color: #09b500;
+  padding: 7px 2px;
+  width: 40%;
+  margin: auto;
+}
+div.bttns
+{
+  display: flex;
+}
+
+#modal_notice_update
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+
+}
+
+ div.alert {
+    padding: 20px;
+    background-color: #880000;
+    color: #ffffff;
+    width: 50%;
+    font-family: marker;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+.update_date
+{
+ font-family: Sans-serif;
+ color: #bcbcbc;
+ font-size: 10px;
+ float: left;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px)
+{
+  #selection_ECE
+  {
+    width: 100%;
+    background-color: #b30004;/*#b30004;*/
+    color: #ffffff;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+
+  }
+
+  #time_table
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+}
+
+@media screen and (max-width: 700px)
+{
+  #selection_ECE
+  {
+    background-color: #b30004;/*#b30004;*/
+    color: #ffffff;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  #time_table
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .tbl tr
+  {
+    display: block;
+    width: 1500px;
+  }
+  div.alert
+  {
+     width: 80%;
+     display: block;
+     margin: 20px auto;
+   }
+}
